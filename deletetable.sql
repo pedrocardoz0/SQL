@@ -14,3 +14,6 @@ SELECT * FROM test;
 SHOW tables;
 
 DROP TABLE test;
+
+-- Truncate delete all the data but do not drop the table --alter
+truncate table test;
