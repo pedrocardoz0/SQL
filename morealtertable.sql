@@ -41,7 +41,7 @@ ADD PRIMARY KEY (id);
 
 -- Remove primary key to people table --
 ALTER TABLE people
-DROP TABLE;
+DROP PRIMARY KEY;
 
 DESCRIBE addresses;
 DESCRIBE people;
