@@ -1,4 +1,4 @@
-use coffe_shop;
+use coffe_store;
 
 SELECT * FROM products;
 
