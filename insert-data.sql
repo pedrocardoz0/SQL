@@ -24,5 +24,25 @@ UPDATE products
 SET country = 'Costa Rica'
 WHERE id = 3;
 
+UPDATE products
+SET country = 'Indonesia'
+WHERE id = 4;
+
+UPDATE products
+SET country = 'Ethiopia'
+WHERE id = 5;
+
+UPDATE products
+SET country = 'Indonesia'
+WHERE id = 6;
+
+UPDATE products
+SET country = 'Sri Lanka'
+WHERE id = 7;
+
+UPDATE products
+SET country = 'Italy'
+WHERE id = 8;
+
 -- Delete Multiple Values --
 DELETE FROM `products` WHERE id BETWEEN 15 and 20;
