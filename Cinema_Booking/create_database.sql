@@ -54,16 +54,13 @@ CREATE TABLE screenings (
 
 CREATE TABLE seats (
 	id INT PRIMARY KEY AUTO_INCREMENT,
-    ´row´ CHAR(1) NOT NULL,
+    row_seat CHAR(1) NOT NULL,
     number INT NOT NULL,
     room_id INT NOT NULL,
     FOREIGN KEY (room_id) REFERENCES rooms(id)
 );
 
-SELECT ´row´ FROM seats;
-
-ALTER TABLE seats
-CHANGE COLUMN ´row´ TO row_so;
+-- SELECT ´row´ FROM seats; --
 
 CREATE TABLE bookings (
 	id INT PRIMARY KEY AUTO_INCREMENT,
