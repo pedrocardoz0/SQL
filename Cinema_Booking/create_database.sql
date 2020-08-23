@@ -70,6 +70,7 @@ CREATE TABLE bookings (
     FOREIGN KEY (customer_id) REFERENCES customers(id)
 );
 
+DROP TABLE reserved_seat;
 CREATE TABLE reserved_seat (
 	id INT PRIMARY KEY AUTO_INCREMENT,
     booking_id INT NOT NULL,

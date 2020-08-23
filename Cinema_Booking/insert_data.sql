@@ -5,6 +5,7 @@ SELECT * FROM customers;
 SELECT * FROM films;
 SELECT * FROM rooms;
 SELECT * FROM screenings;
+SELECT * FROM reserved_seat;
 SELECT * FROM seats;
 
 INSERT INTO bookings (screening_id, customer_id)
